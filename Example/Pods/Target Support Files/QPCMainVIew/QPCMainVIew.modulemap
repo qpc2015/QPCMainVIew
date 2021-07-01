@@ -1,0 +1,6 @@
+framework module QPCMainVIew {
+  umbrella header "QPCMainVIew-umbrella.h"
+
+  export *
+  module * { export * }
+}

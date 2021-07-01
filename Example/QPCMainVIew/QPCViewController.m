@@ -7,8 +7,11 @@
 //
 
 #import "QPCViewController.h"
+#import <FFMainView.h>
 
 @interface QPCViewController ()
+
+@property (nonatomic, strong) FFMainView *mainView;
 
 @end
 
@@ -17,13 +20,16 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    self.mainView.backgroundColor = [UIColor lightGrayColor];
+    [self.view addSubview:self.mainView];
 }
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (FFMainView *)mainView {
+    if (_mainView == nil) {
+        _mainView = [[FFMainView alloc] initWithFrame:CGRectMake(0, 0, self.view.bounds.size.width, self.view.bounds.size.height) style:UITableViewStylePlain];
+        [_mainView registerCellClass:[UITableViewCell class]];
+    }
+    return _mainView;
 }
 
 @end

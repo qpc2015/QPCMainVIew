@@ -1,0 +1,22 @@
+{
+  "name": "QPCMainVIew",
+  "version": "0.1.0",
+  "summary": "A short description of QPCMainVIew.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/qpc2015/QPCMainVIew",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "qpc2015": "qpc6666@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/qpc2015/QPCMainVIew.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "QPCMainVIew/Classes/**/*"
+}

@@ -1,0 +1,16 @@
+PODS:
+  - QPCMainVIew (0.1.0)
+
+DEPENDENCIES:
+  - QPCMainVIew (from `../`)
+
+EXTERNAL SOURCES:
+  QPCMainVIew:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  QPCMainVIew: 9cc6b3db36f8b930f5d719e041efede252b66fc2
+
+PODFILE CHECKSUM: 4c48b97ac283a4aea853b5a961154af4aec41336
+
+COCOAPODS: 1.10.1
